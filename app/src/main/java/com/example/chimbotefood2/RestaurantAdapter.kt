@@ -17,8 +17,6 @@ class RestaurantAdapter(private val myContext: Context, private val listRestaura
         layout.textViewRestaurant.text = restaurant.name
         layout.textViewRestaurantSchedule.text = restaurant.schedule
         layout.imageViewRestaurant.setImageResource(restaurant.image)
-
         return layout
     }
-
 }

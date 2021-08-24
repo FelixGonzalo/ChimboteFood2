@@ -10,11 +10,9 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityAboutBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         // bottom navigation
         val bottomNavigationView = binding.bottomNavigationView
         bottomNavigationView.setSelectedItemId(R.id.aboutActivity)
-
         bottomNavigationView.setOnItemSelectedListener{ item ->
             when (item.itemId) {
                 R.id.mainActivity -> {
