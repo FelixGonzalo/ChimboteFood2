@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantDetailActivity">
+
+    <TextView
+        android:id="@+id/tvRestaurantDetailName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:scaleType="centerCrop"
+        android:text="TextView"
+        android:textColor="@color/primary_dark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRestaurantDetailSchedule"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/ic_schedule"
+        android:drawablePadding="2dp"
+        android:text="TextView"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRestaurantDetailName" />
+
+    <TextView
+        android:id="@+id/tvRestaurantDetailPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="TextView"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRestaurantDetailSchedule" />
+    <TextView
+        android:id="@+id/tvRestaurantDetailLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="TextView"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRestaurantDetailPhone" />
+
+    <TextView
+        android:id="@+id/tvRestaurantDetailDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp"
+        android:text="TextView"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRestaurantDetailLocation" />
+
+    <ImageView
+        android:id="@+id/ivRestaurantDetailimage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRestaurantDetailDescription"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

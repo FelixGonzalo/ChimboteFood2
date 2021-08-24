@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wrapper">15dp</dimen>
+    <dimen name="title">40dp</dimen>
+    <dimen name="subtitle">30dp</dimen>
+    <dimen name="subtitle2">22dp</dimen>
+    <dimen name="text">18dp</dimen>
+    <dimen name="text2">16dp</dimen>
+    <dimen name="caption">10dp</dimen>
+    <dimen name="gap">15dp</dimen>
+    <dimen name="gap_small">5dp</dimen>
+</resources>

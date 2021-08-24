@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/wrapper">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civFoodImage"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:civ_border_width="2dp"
+        tools:background="@color/primary_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvFoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textSize="@dimen/subtitle2"
+            android:textStyle="bold"
+            android:textColor="@color/primary_dark"
+            tools:text="NOMBRE"/>
+
+        <TextView
+            android:id="@+id/tvFoodSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            tools:text="Resumen del plato que consumimos"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

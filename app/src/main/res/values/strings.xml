@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChimboteFood</string>
+
+    <string name="home_title">Chimbote</string>
+    <string name="home_description">Chimbote es una ciudad portuaria en la región de Ancash, en el norte de Perú. Es conocida por sus fábricas de pescado y como centro de transporte regional. La gran Catedral Nuestra Señora del Carmen y San Pedro Apóstol exhibe elaborado arte religioso. Cerca, el Malecón está en frente de Isla Blanca, una pequeña isla no habitada, a la que se puede acceder en bote. La ciudad sirve como punto de partida de la ruta hacia Huaraz a través de los túneles de montaña del Cañón del Pato.</string>
+    <string name="home_title2">Platos típicos</string>
+    <string name="home_description2">Chimbote es un destino que no solo encanta por sus bellas playas y biodiversidad, sino también por su gastronomía. Así que si vas a visitar este destino pronto, no dejes de probar sus potajes más tradicionales ya que tienen una sazón única. Enteraté más en la sección de PLATOS !!.</string>
+
+    <string name="acercade_title">Acerca De</string>
+    <string name="acercade_description">ChimboteFood es una aplicación que ofrece toda la información acerca de los platos típicos del Distrito de Chimbote.</string>
+</resources>

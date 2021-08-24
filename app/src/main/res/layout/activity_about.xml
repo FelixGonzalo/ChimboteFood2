@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fondo"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/wrapper"
+            android:paddingRight="@dimen/wrapper"
+            android:paddingBottom="50dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/gap"
+                android:layout_marginBottom="@dimen/gap_small"
+                android:background="@color/primary_dark" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                android:layout_marginBottom="@dimen/gap_small"
+                android:src="@drawable/logo_app" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/gap"
+                android:background="@color/primary_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/acercade_description"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text" />
+
+            <ImageView
+                android:id="@+id/imageViewChimbote"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                android:layout_marginBottom="@dimen/gap_small"
+                android:src="@drawable/plaza_chimbote" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/gap"
+                android:background="@color/primary_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/gap"
+                android:justificationMode="inter_word"
+                android:text="@string/home_description"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap"
+                android:layout_marginBottom="@dimen/gap"
+                android:text="@string/home_title2"
+                android:textColor="@color/primary_dark"
+                android:textSize="@dimen/subtitle" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/gap"
+                android:background="@color/primary_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/gap"
+                android:justificationMode="inter_word"
+                android:text="@string/home_description2"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemTextColor="@color/bottomnavigation_color"
+        app:itemIconTint="@color/bottomnavigation_color"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
