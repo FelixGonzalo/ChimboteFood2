@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    android:opacity="opaque"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/primary_light"/>
+    <item
+        android:left="40dp"
+        android:right="40dp"
+        android:top="340dp"
+        android:bottom="340dp">
+        <bitmap android:src="@drawable/logo_app"/>
+    </item>
+</layer-list>
