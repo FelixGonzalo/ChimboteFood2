@@ -69,13 +69,14 @@ class FoodActivity : AppCompatActivity() {
         foodList.add(Food("Jalea de Pescado", "Es un buen plato a base de pescados y mariscos para disfrutar en verano. Este plato lleva consigo pescado, mariscos, harina, chuño, huevo, limón y diferente tipos de ajíes.", "https://images-gmi-pmc.edge-generalmills.com/3ece958a-cb33-40c1-8307-5479a6d3eed2.jpg"))
         foodList.add(Food("Sudado de Pescado", "Es un plato de fondo muy bueno. Para el sudado de pescado se suele usar la lorna, pero se puede sustituir por cualquier pescado de roca. Además del pescado se utiliza ingredientes como la cebolla, el tomate, los ajíes, cebolleta ramas de cilantro y limón.", "https://img-global.cpcdn.com/recipes/7789879d7e482655/751x532cq70/sudado-de-pescado-bonito-foto-principal.jpg"))
 
-       // adapter.setListData(foodList)
-        //adapter.notifyDataSetChanged()
+        adapter.setListData(foodList)
+        adapter.notifyDataSetChanged()
+        shimmer_view_container.visibility = View.GONE
 
         // end recyclerview
 
         //aplicando FIREBASE
-        observeData(binding)
+        //observeData(binding)
 
     }
 
