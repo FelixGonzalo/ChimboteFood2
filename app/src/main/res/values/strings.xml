@@ -3,8 +3,14 @@
 
     <string name="home_title">Chimbote</string>
     <string name="home_description">Chimbote es una ciudad portuaria en la región de Ancash, en el norte de Perú. Es conocida por sus fábricas de pescado y como centro de transporte regional. La gran Catedral Nuestra Señora del Carmen y San Pedro Apóstol exhibe elaborado arte religioso. Cerca, el Malecón está en frente de Isla Blanca, una pequeña isla no habitada, a la que se puede acceder en bote. La ciudad sirve como punto de partida de la ruta hacia Huaraz a través de los túneles de montaña del Cañón del Pato.</string>
-    <string name="home_title2">Platos típicos</string>
-    <string name="home_description2">Chimbote es un destino que no solo encanta por sus bellas playas y biodiversidad, sino también por su gastronomía. Así que si vas a visitar este destino pronto, no dejes de probar sus potajes más tradicionales ya que tienen una sazón única. Enteraté más en la sección de PLATOS !!.</string>
+    <string name="home_title2">Clima</string>
+    <string name="home_description2">Chimbote tiene veranos cortos, calientes, áridos y nublados e inviernos largos, frescos, secos y parcialmente nublado. La mejor época para realizar turismo en Chimbote es desde principios de Abril hasta mediados de Septiembre</string>
+    <string name="home_title3">Lugares Turísticos</string>
+    <string name="home_description3">Chimbote tiene un hermoso espacio, que naturalmente es el principal protagonista, entre los lugares más bonitos a visitar se encuentra la Isla Blanca, la cual posee aguas tranquilas de color azul y montañas rocosas que la rodean, también como una buena opción a visitar podemos encontrar el Vivero Forestal, el cuál es un parque ideal para pasar un día en familia por los múltiples atractivos que posee.</string>
+    <string name="home_title4">Platos típicos</string>
+    <string name="home_description4">Chimbote es un destino que no solo encanta por sus lugares turísticos y biodiversidad, sino también por su gastronomía. Debido a ello es que si visitas este lugar debes de probar sus potajes más tradicionales debido a que tienen una sazón única. Puedes enterarte más acerca de estos platos típicos en la sección de PLATOS TÍPICOS.</string>
+
+
 
     <string name="acercade_title">Acerca De</string>
     <string name="acercade_description">ChimboteFood es una aplicación que ofrece toda la información acerca de los platos típicos del Distrito de Chimbote.</string>
