@@ -88,5 +88,4 @@ class FoodActivity : AppCompatActivity() {
             adapter.notifyDataSetChanged()
         })
     }
-
 }

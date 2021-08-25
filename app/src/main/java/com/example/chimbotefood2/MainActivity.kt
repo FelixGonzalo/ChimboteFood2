@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chimbotefood2.databinding.ActivityMainBinding
+import com.example.chimbotefood2.helloar.HelloArActivity
 import com.example.chimbotefood2.ui.FoodActivity
 
 
@@ -40,5 +41,15 @@ class MainActivity : AppCompatActivity() {
             true
         }
         // end bottom navigation
+
+        // Arcore
+
+        binding.buttonArcore.setOnClickListener{
+            val newintent = Intent(this, HelloArActivity::class.java)
+            startActivity(newintent)
+            overridePendingTransition(0,0)
+        }
+
+        // end Arcore
     }
 }

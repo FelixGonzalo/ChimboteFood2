@@ -12,7 +12,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.chimbotefood2"
-        minSdkVersion 21
+        //minSdkVersion 21 no funciona para arcore
+        minSdkVersion 24
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
@@ -79,4 +80,11 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0-alpha03")
     // efecto shimmer
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+
+    // ARCore (Google Play Services for AR) library.
+    implementation 'com.google.ar:core:1.26.0'
+    // Obj - a simple Wavefront OBJ file loader
+    // https://github.com/javagl/Obj
+    implementation 'de.javagl:obj:0.2.1'
 }
