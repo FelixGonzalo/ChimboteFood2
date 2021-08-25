@@ -22,7 +22,7 @@
         tools:layout="@layout/activity_main" />
     <activity
         android:id="@+id/foodActivity"
-        android:name="com.example.chimbotefood2.FoodActivity"
+        android:name="com.example.chimbotefood2.ui.FoodActivity"
         android:label="activity_food"
         tools:layout="@layout/activity_food" />
 </navigation>

@@ -16,4 +16,6 @@
     <color name="accent">#FFEB3B</color>
     <color name="gray">#757575</color>
     <color name="divider">#BDBDBD</color>
+
+    <color name="placeholder_bg">#EFCAC7</color>
 </resources>

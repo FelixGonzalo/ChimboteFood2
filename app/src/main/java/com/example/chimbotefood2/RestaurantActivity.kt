@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.chimbotefood2.databinding.ActivityRestaurantBinding
 
 import com.example.chimbotefood2.entities.Restaurant
+import com.example.chimbotefood2.ui.FoodActivity
 
 
 class RestaurantActivity : AppCompatActivity() {
